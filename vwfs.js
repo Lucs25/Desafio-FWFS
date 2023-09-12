@@ -1,11 +1,12 @@
-//Questão 1
-const fornecedorA = document.querySelector();
-
-function contMedia(fornecedorA, fornecedorB, fornecedorC) {
-  const total = fornecedorA + fornecedorB + fornecedorC;
-  return total / 3;
+/* //Questão 1
+function mediaInputs(...input) {
+  const total = input.reduce(
+    (accumulator, currentValue) => accumulator + currentValue
+  );
+  return total / input.length;
 }
-contMedia(1, 2, 3);
+
+console.log(mediaInputs(10, 10, 5)); */
 
 /* //Questão 2
 function contMedia(fornecedorA) {
@@ -15,8 +16,7 @@ function contMedia(fornecedorA) {
     console.log('Número ímpar');
   }
 }
-contMedia(7);
- */
+contMedia(8); */
 
 /* //Questão 3
 for (let i = 10; i >= 1; i--) {
@@ -31,10 +31,9 @@ function factorialize(num) {
     return num * factorialize(num - 1);
   }
 }
-console.log(factorialize(3)); */
+console.log(factorialize(6)); */
 
 /* //Questão 5
-
 let repeatLetter = 'e';
 const phrase = 'Este é um teste';
 
@@ -52,7 +51,7 @@ function primeNumber(num) {
   } else console.log(`O número ${num} é primo.`);
 }
 
-primeNumber(21); */
+primeNumber(22); */
 
 /* //Questão 7
 function isPrimeNumber(i) {
@@ -72,6 +71,15 @@ function sumNumber(numberOne, numberTwo) {
 }
 
 sumNumber(10, 20); */
+
+/* //Questão 9
+let numberInput = 0;
+let numberOutput = 5;
+for (let i = 1; i <= numberOutput; i++) {
+  numberInput += i;
+}
+
+console.log(`De 0 a ${numberOutput} na sequência da Fibonacci são ${numberInput}`); */
 
 /* //Questão 10
 let firstNumber = 10;
